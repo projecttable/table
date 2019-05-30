@@ -8,8 +8,12 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
+      redirect: '/table',
+    },
+    {
+      path: '/table',
+      name: 'table',
+      component: res => require(['@/pages/table'], res)
     }
   ]
 })
