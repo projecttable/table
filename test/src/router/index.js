@@ -13,6 +13,11 @@ export default new Router({
       path: '/table',
       name: 'table',
       component: res => require(['@/pages/table'], res)
+    },
+    {
+      path: '/loadin',
+      name: 'loadin',
+      component: res => require(['@/page/loadin'], res)
     }
   ]
 })
