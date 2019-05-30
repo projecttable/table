@@ -1,14 +1,10 @@
 <template>
-    <div class="table"></div>
+    <div class="table">
+        table
+    </div>
 </template>
 <script>
 export default {
   name: 'table'
 }
 </script>
-<style >
-.table{
-    margin: 0;
-}
-</style>
-
