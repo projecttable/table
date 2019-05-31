@@ -1,15 +1,27 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
+// import index from '@/pages/header'
+// import left from '@/pages/left'
+import main from '@/components/main'
 
 Vue.use(Router)
 
 export default new Router({
   routes: [
+    // {
+    //   path: '/',
+    //   name: 'index',
+    //   component: index
+    // },
+    // {
+    //   path: '/left',
+    //   name: 'left',
+    //   component: left
+    // }
     {
       path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
+      name: 'main',
+      component: main
     }
   ]
 })
