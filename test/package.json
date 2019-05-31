@@ -14,7 +14,6 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "element-ui": "^2.9.0",
     "less-loader": "^5.0.0",
     "stylus-loader": "^3.0.2",
     "vue": "^2.6.10",
@@ -41,7 +40,7 @@
     "copy-webpack-plugin": "^4.0.1",
     "cross-spawn": "^5.0.1",
     "css-loader": "^0.28.11",
-    "element-ui": "^2.9.0",
+    "element-ui": "^2.9.1",
     "eslint": "^4.15.0",
     "eslint-config-standard": "^10.2.1",
     "eslint-friendly-formatter": "^3.0.0",
