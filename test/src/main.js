@@ -3,11 +3,10 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import elementUi from 'element-ui'
+import '@/assets/css/reset.styl'
+import ele from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
-
-Vue.use(elementUi)
-
+Vue.use(ele)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
